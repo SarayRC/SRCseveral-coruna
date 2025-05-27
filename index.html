@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Several Energy A Coruña | Asesoría energética para empresas y comunidades</title>
+    <meta name="description" content="Expertos en ahorro energético en A Coruña. Optimizamos tu consumo energético, instalaciones fotovoltaicas y puntos de recarga para comunidades y empresas gallegas.">
+    <meta name="keywords" content="asesoría energética A Coruña, ahorro energético Galicia, Several Energy Coruña, administración de fincas, comunidades de propietarios">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Several Energy A Coruña",
+      "description": "Asesoría energética especializada en A Coruña para comunidades, autónomos y empresas gallegas.",
+      "image": "img/logo.png",
+      "url": "https://severalenergy.es/coruna",
+      "telephone": "+34981000000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle Real 123",
+        "addressLocality": "A Coruña",
+        "addressRegion": "A Coruña",
+        "postalCode": "15003",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.3713,
+        "longitude": -8.3962
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/severalenergy",
+        "https://www.instagram.com/severalenergy",
+        "https://www.linkedin.com/company/severalenergy"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Several Energy A Coruña">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#administradores">Administradores de Fincas</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <a href="tel:+34981000000" class="phone"><i class="fas fa-phone-alt"></i> 981 000 000</a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Paga solo por lo que consumes en A Coruña</h1>
+                <p>Análisis en 36 comercializadoras para maximizar tu ahorro energético en Galicia</p>
+                <a href="#contacto" class="btn btn-primary">Comencemos</a>
+            </div>
+            <div class="hero-form">
+                <div class="form-container">
+                    <h3>Adjúntanos tu factura</h3>
+                    <form id="hero-form" action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" name="nombre" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="telefono" placeholder="Teléfono" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="tipo_cliente" required>
+                                <option value="" disabled selected>Tipo de cliente</option>
+                                <option value="comunidad">Comunidad de propietarios</option>
+                                <option value="autonomo">Autónomo</option>
+                                <option value="pyme">Pyme</option>
+                                <option value="empresa">Gran empresa</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <div class="file-upload">
+                                <label for="factura">
+                                    <i class="fas fa-file-upload"></i> Subir factura
+                                </label>
+                                <input type="file" id="factura" name="factura" accept=".pdf,.jpg,.png">
+                                <span class="file-selected">Ningún archivo seleccionado</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-block">Solicitar análisis gratuito</button>
+                        </div>
+                        <div class="form-privacy">
+                            <small>Al enviar este formulario, aceptas nuestra <a href="#">política de privacidad</a>.</small>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome">
+        <div class="container">
+            <div class="welcome-content">
+                <h2>¡Bienvenido a Several Energy A Coruña!</h2>
+                <p>En nuestra empresa, creemos en el poder del ahorro y en el impacto positivo que puede tener en tu vida y en el medio ambiente. ¿Qué es una asesoría energética y cómo te beneficia? Permítenos explicártelo.</p>
+                <p>Una asesoría energética es un servicio personalizado que te brinda orientación y asistencia para tomar decisiones inteligentes en cuanto al consumo y uso eficiente de la energía. Trabajamos contigo, comprendiendo tus necesidades y metas, para encontrar soluciones que se adapten perfectamente a ti.</p>
+                <p>Nuestro equipo en A Coruña está especializado en el mercado energético gallego, conociendo las particularidades climáticas, normativas y de consumo de nuestra región.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-euro-sign"></i>
+                    </div>
+                    <h3>Ahorro Económico</h3>
+                    <p>Nuestro enfoque está en ayudarte a ahorrar en tus facturas de luz y gas. Mediante un análisis detallado de tus consumos, identificamos oportunidades de ahorro inmediatas.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Eficiencia Energética</h3>
+                    <p>Queremos que saques el máximo provecho de la energía que consumes. Te ofrecemos recomendaciones y soluciones personalizadas para mejorar la eficiencia de tus equipos.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Asesoramiento Experto</h3>
+                    <p>Contamos con un equipo de expertos en energía que te guiarán en todo el proceso. Conocemos las últimas tecnologías y prácticas eficientes y las adaptamos a tus necesidades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Administrators Section -->
+    <section id="administradores" class="administrators">
+        <div class="container">
+            <div class="section-title">
+                <h2>Soluciones para Administradores de Fincas</h2>
+                <p>Colaboramos con administraciones de fincas en toda Galicia</p>
+            </div>
+            <div class="admin-content">
+                <div class="admin-image">
+                    <img src="img/administradores.jpg" alt="Colaboración con administradores de fincas en A Coruña">
+                </div>
+                <div class="admin-text">
+                    <h3>Beneficios para su administración</h3>
+                    <ul>
+                        <li><strong>Valor añadido sin coste:</strong> Amplíe su cartera de servicios sin inversión.</li>
+                        <li><strong>Diferenciación competitiva:</strong> Ofrezca soluciones innovadoras frente a otras administraciones.</li>
+                        <li><strong>Ingresos adicionales:</strong> Comisiones por cada comunidad que implemente nuestras soluciones.</li>
+                        <li><strong>Fidelización de clientes:</strong> Mayor satisfacción de las comunidades al reducir sus gastos.</li>
+                        <li><strong>Cero riesgos:</strong> Solo cobramos si conseguimos ahorros efectivos.</li>
+                    </ul>
+                    <p>Nuestro equipo en A Coruña está especializado en trabajar con administradores de fincas, ofreciendo un servicio personalizado y adaptado a las necesidades específicas de cada comunidad.</p>
+                    <a href="#contacto" class="btn btn-secondary">Solicitar información para administradores</a>
+                </div>
+            </div>
+            <div class="admin-services">
+                <h3>Servicios para comunidades de propietarios</h3>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-file-invoice-dollar"></i>
+                        </div>
+                        <h4>Optimización de contratos</h4>
+                        <p>Análisis de facturas, comparativa de tarifas y gestión del cambio para zonas comunes.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-solar-panel"></i>
+                        </div>
+                        <h4>Instalaciones fotovoltaicas</h4>
+                        <p>Estudio de viabilidad, tramitación de subvenciones y coordinación de instalación.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-charging-station"></i>
+                        </div>
+                        <h4>Puntos de recarga</h4>
+                        <p>Dimensionamiento, gestión de ayudas y sistemas de facturación para vehículos eléctricos.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Monitorización de consumos</h4>
+                        <p>Control y alertas de consumos anómalos en tiempo real para prevenir sobrecostes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros servicios</h2>
+                <p>Creamos soluciones vanguardistas para la gestión de la energía que consumes</p>
+            </div>
+            <div class="services-tabs">
+                <div class="tabs-nav">
+                    <button class="tab-btn active" data-target="comunidades">Comunidades</button>
+                    <button class="tab-btn" data-target="autonomos">Autónomos</button>
+                    <button class="tab-btn" data-target="pymes">Pymes</button>
+                    <button class="tab-btn" data-target="empresas">Grandes empresas</button>
+                </div>
+                <div class="tabs-content">
+                    <div class="tab-content active" id="comunidades">
+                        <div class="service-content">
+                            <div class="service-image">
+                                <img src="img/comunidades.jpg" alt="Servicios para comunidades de propietarios en A Coruña">
+                            </div>
+                            <div class="service-text">
+                                <h3>Para comunidades de propietarios</h3>
+                                <p>Nuestro portfolio de productos está relacionado con los consumos y suministros de tu comunidad, queremos que pagues lo justo y el resto lo puedas emplear en lo más importante.</p>
+                                <ul>
+                                    <li>Optimización de contratos de suministro para zonas comunes</li>
+                                    <li>Instalaciones fotovoltaicas para autoconsumo comunitario</li>
+                                    <li>Puntos de recarga para vehículos eléctricos</li>
+                                    <li>Gestión de subvenciones y ayudas disponibles en Galicia</li>
+                                </ul>
+                                <a href="#contacto" class="btn btn-secondary">Solicitar estudio para mi comunidad</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="autonomos">
+                        <div class="service-content">
+                            <div class="service-image">
+                                <img src="img/autonomos.jpg" alt="Servicios para autónomos en A Coruña">
+                            </div>
+                            <div class="service-text">
+                                <h3>Para autónomos</h3>
+                                <p>Nuestro portfolio de productos está relacionado con los consumos y suministros de tu negocio, queremos que pagues lo justo y el resto lo puedas emplear en lo más importante.</p>
+                                <ul>
+                                    <li>Optimización de contratos adaptados a tu negocio</li>
+                                    <li>Contadores fiscales para maximizar deducciones</li>
+                                    <li>Pequeñas instalaciones fotovoltaicas</li>
+                                    <li>Tramitación de ayudas disponibles en Galicia</li>
+                                </ul>
+                                <a href="#contacto" class="btn btn-secondary">Analiza tu factura gratis</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="pymes">
+                        <div class="service-content">
+                            <div class="service-image">
+                                <img src="img/pymes.jpg" alt="Servicios para pymes en A Coruña">
+                            </div>
+                            <div class="service-text">
+                                <h3>Para pymes</h3>
+                                <p>Nuestro portfolio de productos está relacionado con los consumos y suministros de tu empresa, queremos que pagues lo justo y el resto lo puedas emplear en lo más importante.</p>
+                                <ul>
+                                    <li>Auditoría energética completa</li>
+                                    <li>Optimización de potencia contratada</li>
+                                    <li>Instalaciones fotovoltaicas de autoconsumo</li>
+                                    <li>Puntos de recarga para flotas</li>
+                                </ul>
+                                <a href="#contacto" class="btn btn-secondary">Solicitar auditoría energética</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="empresas">
+                        <div class="service-content">
+                            <div class="service-image">
+                                <img src="img/empresas.jpg" alt="Servicios para grandes empresas en A Coruña">
+                            </div>
+                            <div class="service-text">
+                                <h3>Para grandes empresas</h3>
+                                <p>Nuestro portfolio de productos está relacionado con los consumos y suministros de tu empresa, queremos que pagues lo justo y el resto lo puedas emplear en lo más importante.</p>
+                                <ul>
+                                    <li>Estrategia energética integral</li>
+                                    <li>Proyectos fotovoltaicos a gran escala</li>
+                                    <li>Infraestructura para movilidad eléctrica</li>
+                                    <li>Monitorización y gestión energética</li>
+                                </ul>
+                                <a href="#contacto" class="btn btn-secondary">Contactar con un especialista</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre nosotros</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/equipo.jpg" alt="Equipo Several Energy A Coruña">
+                </div>
+                <div class="about-text">
+                    <h3>Un gran equipo de asesores energéticos a tu disposición</h3>
+                    <p>Más de 2400 Asesores energéticos en 2024 conforman nuestro equipo profesional, con una formación continua en los avances del sector, tienen como cometido estar alerta con los consumos de nuestros clientes para proporcionar el mayor ahorro y calidad en sus suministros.</p>
+                    <p>En Several Energy A Coruña contamos con un equipo especializado en el mercado gallego, conocedores de las particularidades energéticas de nuestra región y con amplia experiencia en el asesoramiento a comunidades de propietarios, autónomos y empresas locales.</p>
+                    <p>Nuestra oficina en A Coruña está estratégicamente ubicada para dar servicio a toda la provincia, con especial atención a las necesidades específicas de cada cliente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>Cómo trabajamos</h2>
+                <p>Un proceso simple y efectivo para maximizar tu ahorro</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Análisis inicial</h3>
+                        <p>Recopilación de facturas y datos de consumo. Estudio de necesidades específicas. Identificación de oportunidades de ahorro.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Propuesta personalizada</h3>
+                        <p>Presentación de soluciones adaptadas. Estimación de ahorros potenciales. Planificación de implementación.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Implementación</h3>
+                        <p>Gestión de cambios de contrato. Coordinación con instaladores. Tramitación de subvenciones.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Seguimiento</h3>
+                        <p>Monitorización de consumos. Verificación de ahorros. Optimización continua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Lo que dicen nuestros clientes</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Gracias a Several Energy hemos reducido la factura energética de nuestra comunidad en un 28%. El proceso fue muy sencillo y no tuvimos que hacer ninguna inversión inicial."</p>
+                        <div class="testimonial-author">
+                            <h4>Comunidad de Propietarios Riazor</h4>
+                            <p>A Coruña</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Como administrador de fincas, la colaboración con Several Energy me ha permitido ofrecer un servicio adicional a mis comunidades. El equipo de A Coruña es muy profesional y los resultados son excelentes."</p>
+                        <div class="testimonial-author">
+                            <h4>Carlos Fernández</h4>
+                            <p>Administrador de Fincas Colegiado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Instalamos placas solares en nuestra empresa con Several Energy y el ahorro ha sido espectacular. Además, gestionaron todas las subvenciones disponibles, lo que redujo considerablemente la inversión."</p>
+                        <div class="testimonial-author">
+                            <h4>Panadería Artesana Galega</h4>
+                            <p>Santiago de Compostela</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contacta con nosotros</h2>
+                <p>Solicita tu análisis energético gratuito</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Dirección</h3>
+                        <p>Calle Real 123<br>A Coruña, 15003</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Teléfono</h3>
+                        <p><a href="tel:+34981000000">981 000 000</a></p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:coruna@severalenergy.es">coruna@severalenergy.es</a></p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <h3>Horario</h3>
+                        <p>Lunes a Viernes: 9:00 - 18:00</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form" action="#" method="post">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre" name="nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="apellidos">Apellidos</label>
+                                <input type="text" id="apellidos" name="apellidos" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="tipo_cliente">Tipo de cliente</label>
+                            <select id="tipo_cliente" name="tipo_cliente" required>
+                                <option value="" disabled selected>Selecciona una opción</option>
+                                <option value="administrador">Administrador de fincas</option>
+                                <option value="comunidad">Comunidad de propietarios</option>
+                                <option value="autonomo">Autónomo</option>
+                                <option value="pyme">Pyme</option>
+                                <option value="empresa">Gran empresa</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="file-upload">
+                                <label for="factura-contacto">
+                                    <i class="fas fa-file-upload"></i> Subir factura (opcional)
+                                </label>
+                                <input type="file" id="factura-contacto" name="factura" accept=".pdf,.jpg,.png">
+                                <span class="file-selected">Ningún archivo seleccionado</span>
+                            </div>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" id="privacidad" name="privacidad" required>
+                            <label for="privacidad">He leído y acepto la <a href="#">política de privacidad</a></label>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block">Enviar mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map">
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46304.59113590234!2d-8.420642699999999!3d43.3713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7cfcf174574d%3A0x6a47350d095cdfee!2sA%20Coru%C3%B1a%2C%20La%20Coru%C3%B1a!5e0!3m2!1ses!2ses!4v1653649854211!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/logo-white.png" alt="Several Energy A Coruña">
+                    <p>Asesoría energética especializada en A Coruña. Optimizamos tu consumo energético sin coste inicial.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#administradores">Administradores de Fincas</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#servicios">Optimización de contratos</a></li>
+                        <li><a href="#servicios">Instalaciones fotovoltaicas</a></li>
+                        <li><a href="#servicios">Contadores fiscales</a></li>
+                        <li><a href="#servicios">Puntos de recarga</a></li>
+                        <li><a href="#servicios">Gestión de subvenciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Calle Real 123, A Coruña</li>
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+34981000000">981 000 000</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:coruna@severalenergy.es">coruna@severalenergy.es</a></li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 Several Energy. Todos los derechos reservados.</p>
+                </div>
+                <div class="legal-links">
+                    <a href="#">Aviso legal</a>
+                    <a href="#">Política de privacidad</a>
+                    <a href="#">Política de cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/34600000000" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
